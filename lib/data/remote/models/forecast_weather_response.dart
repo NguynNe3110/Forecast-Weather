@@ -1,5 +1,5 @@
 // lib/data/remote/models/responses/forecast/forecast_weather_response.dart
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/remote/models/responses/forecast_item_dto.dart';
+import 'package:forecast_weather/data/remote/models/responses/forecast_item_dto.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'responses/forecast_item_dto.dart';
 

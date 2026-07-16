@@ -1,10 +1,10 @@
 // lib/feature/project/forecast_weather_v2/data/local/datasources/weather_local_datasource.dart
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/local/database/drift/daos/weather_dao.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/mappers/current_mapper.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/mappers/forecast_mapper.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/domain/entities/current_weather_entity.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/domain/entities/forecast_weather_entity.dart';
+import 'package:forecast_weather/data/local/database/drift/daos/weather_dao.dart';
+import 'package:forecast_weather/data/mappers/current_mapper.dart';
+import 'package:forecast_weather/data/mappers/forecast_mapper.dart';
+import 'package:forecast_weather/domain/entities/current_weather_entity.dart';
+import 'package:forecast_weather/domain/entities/forecast_weather_entity.dart';
 
 import '../../../core/error/app_exception.dart';
 

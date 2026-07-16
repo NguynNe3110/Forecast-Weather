@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/core/network/weather_interceptor.dart';
+import 'package:forecast_weather/core/network/weather_interceptor.dart';
 
 import '../constants/api_constants.dart';
 

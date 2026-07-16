@@ -1,6 +1,6 @@
 // lib/data/mappers/forecast_mapper.dart
 import 'package:drift/drift.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/mappers/weather_mapper.dart';
+import 'package:forecast_weather/data/mappers/weather_mapper.dart';
 import '../../domain/entities/forecast_item_entity.dart';
 import '../../domain/entities/forecast_weather_entity.dart';
 import '../../domain/entities/main_entity.dart';

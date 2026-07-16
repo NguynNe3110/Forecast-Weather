@@ -1,13 +1,13 @@
 // lib/feature/project/forecast_weather_v2/data/remote/datasources/weather_remote_datasource.dart
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/mappers/current_mapper.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/mappers/forecast_mapper.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/remote/api/weather_api.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/remote/models/current_weather_response.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/remote/models/forecast_weather_response.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/domain/entities/current_weather_entity.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/domain/entities/forecast_weather_entity.dart';
+import 'package:forecast_weather/data/mappers/current_mapper.dart';
+import 'package:forecast_weather/data/mappers/forecast_mapper.dart';
+import 'package:forecast_weather/data/remote/api/weather_api.dart';
+import 'package:forecast_weather/data/remote/models/current_weather_response.dart';
+import 'package:forecast_weather/data/remote/models/forecast_weather_response.dart';
+import 'package:forecast_weather/domain/entities/current_weather_entity.dart';
+import 'package:forecast_weather/domain/entities/forecast_weather_entity.dart';
 
 import '../../../core/error/app_exception.dart'; // Import Mapper
 

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/data/remote/models/current_weather_response.dart';
+import 'package:forecast_weather/data/remote/models/current_weather_response.dart';
 import 'package:retrofit/error_logger.dart';
 import 'package:retrofit/http.dart';
 

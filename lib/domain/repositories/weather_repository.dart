@@ -1,5 +1,5 @@
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/domain/entities/current_weather_entity.dart';
-import 'package:flutter_mobilehub/feature/project/forecast_weather_v2/domain/entities/forecast_weather_entity.dart';
+import 'package:forecast_weather/domain/entities/current_weather_entity.dart';
+import 'package:forecast_weather/domain/entities/forecast_weather_entity.dart';
 
 abstract class WeatherRepository {
   Stream<CurrentWeatherEntity?> watchCurrentWeather(String city);
