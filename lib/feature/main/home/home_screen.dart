@@ -7,8 +7,8 @@ import 'widgets/weather_item.dart';
 import 'home_notifier.dart';
 import 'home_state.dart';
 
-class HomeScreen_forecastV2 extends ConsumerWidget {
-  const HomeScreen_forecastV2({super.key});
+class HomeScreen extends ConsumerWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

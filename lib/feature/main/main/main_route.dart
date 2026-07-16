@@ -38,7 +38,7 @@ class ForecastV2MainRoute {
             StatefulShellBranch(routes: [
               GoRoute(
                 path: home,
-                builder: (_, __) => const HomeScreen_forecastV2(),
+                builder: (_, __) => const HomeScreen(),
                 routes: [
                   // 🌟 THÊM ROUTE DETAIL
                   GoRoute(
