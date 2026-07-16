@@ -96,6 +96,7 @@ dev_dependencies:
   # 🔥 Hạ xuống 2.5.7 (Bản 3.0.0 có breaking change rất dễ lỗi code cũ)
   freezed: ^2.5.7
 
+  flutter_launcher_icons: ^0.14.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -141,3 +142,9 @@ flutter:
   assets:
     - assets/project_forecast_weather/
     - .env
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+
+  image_path: "assets/app_icon.png"
